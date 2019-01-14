@@ -1,0 +1,48 @@
+*{margin:0;padding:0}
+#mydesign{width:1000px;height:1100px;
+margin:auto;margin-top:0px; background-color:brown;overflow:hidden;}
+#mydesign img{max-width:100%;}
+#title{text-align:center}
+.title,h3{color:orange;
+font-family:arial black;
+font-size:50px;margin:10px}
+h5{font-size:10px}
+#design,#development,#wordpress,#responsive,#research,#seo{display:inline-block;
+padding:70px;margin:10px;
+width:330px;height:150px;
+text-align:center;
+background-color:#ddd;
+overflow:hidden;
+border:1px solid white;border-radius:5px;
+animation-name:xoomInmyboxes;animation-duration:1s;}
+.fas{font-size:50px}
+#design:hover{background:transparent;
+cursor:pointer;color:white;
+transition:all 1s;transform:scale(0.9)}
+#wordpress:hover{background:transparent;cursor:pointer;color:white;transition:all 1s;transform:scale(0.9)}
+#development:hover{background:transparent;cursor:pointer;color:white;transition:all 1s;transform:scale(0.9)}
+#responsive:hover{background:transparent;cursor:pointer;color:white;transition:all 1s;transform:scale(0.9)}
+#research:hover{background:transparent;cursor:pointer;color:white;transition:all 1s;transform:scale(0.9)}
+#seo:hover{background:transparent;cursor:pointer;color:white;transition:all 1s;transform:scale(0.9)}
+body{opacity:1}
+h3:hover{transform:translateY(20px);transition:all 1s;}
+@keyframes xoomInmyboxes{
+from{transform:scale(0.1)}
+To{transform:scale(1)}}
+#image{margin-left:20px;width:300px;background-color:white;box-shadow:-1px 16px 50px -22px black;}
+#image img{max-width:300px;}
+#text2{width:400px;padding-left:20px;}
+#text2 h2{padding-bottom:5px;margin-bottom:10px;border-bottom:1px solid #ddd;}
+.text{font-size:30px;color:black;text-align:center;margin-top:30px;padding-left:-20px;border-bottom:1px solid #ddd;}
+#image,#text2{display:inline-block}
+.text span{color:orange}
+footer{color:white; background-color:black;width:100%;text-align:center;margin-top:400px;}
+#main_menu{background-color:white;padding:0px;margin:0px;margin-top:20px;}
+#menu li{display:inline-block;padding:2px;}
+#menu li a{text-decoration:none;text-transform:uppercase;font-size:20px;color:#444;}
+#logo img{width:200px;margin-left:10px;}
+#logo,#menu{display:inline-block;margin:0px;padding:0px;}
+#menu{width:550px;margin:0px;float:right;margin-top:5px;}
+#logo{float:left;width:300px;}
+#menu li a:hover{border-bottom:2px solid orange;transition:0.5s}
+#mainnav{border-bottom:2px solid orange;overflow:hidden;}
